@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purohit Packaging</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+<!-- Navbar -->
+
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+    <div class="container-fluid">
+        <!-- Logo on the left -->
+        <a class="navbar-brand me-4" href="#">
+            <img src="assets/logo.png" alt="Purohit Packaging Logo" height="60">
+        </a>
+
+        <!-- Toggler for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu center aligned -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item px-3"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item px-3"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item px-3"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item px-3"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Sections -->
+<section id="about" class="about-section text-center">
+    <div class="overlay"></div>
+    <div class="container py-5">
+        <h2 class="mb-5 text-orange">Purohit Packaging</h2>
+        <p class="lead mb-4">
+            At Purohit Packaging, we specialize in crafting high-quality, eco-friendly packaging solutions tailored for diverse industries.
+            Whether it's elegant gift boxes, sturdy food containers, or customizable shipping boxes, our products combine functionality with aesthetics.
+        </p>
+        <p>
+            With a commitment to sustainability and innovation, our team focuses on using recyclable materials while ensuring premium durability and style.
+            Trusted by over 500+ businesses, we aim to deliver packaging that not only protects your product but also elevates your brand.
+        </p>
+    </div>
+</section>
+
+<section id="products" class="section bg-white text-center py-5">
+    <div class="container">
+        <h2 class="mb-5">Our Products</h2>
+
+        <!-- Accordion Dropdown -->
+        <div class="accordion" id="productAccordion">
+
+            <!-- Sweet Box Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSweet">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSweet">
+                        Sweet Box Packaging
+                    </button>
+                </h2>
+                <div id="collapseSweet" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Single Folding Box</li>
+                            <li>Top & Bottom Box</li>
+                            <li>3 Piece Box</li>
+                            <li>Kaju Katli Box</li>
+                            <li>2/3/4 Line Window Box</li>
+                            <li>Fancy Box</li>
+                            <li>2/3/4/5/6 Part Dryfruits Box</li>
+                            <li>Laddu & Ghevar Box</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake Box Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCake">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCake">
+                        Cake Box Packaging
+                    </button>
+                </h2>
+                <div id="collapseCake" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Single & Double Pastry Box</li>
+                            <li>Cake Box</li>
+                            <li>Fancy Window Cake Box</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nasta Box Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingNasta">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNasta">
+                        Nasta Box Packaging
+                    </button>
+                </h2>
+                <div id="collapseNasta" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Nasta Box</li>
+                            <li>Fafda Box</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cups & Glasses Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCups">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCups">
+                        Cups & Glasses Packaging
+                    </button>
+                </h2>
+                <div id="collapseCups" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Cups</li>
+                            <li>Glasses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food Box Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFood">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFood">
+                        Food Box Packaging
+                    </button>
+                </h2>
+                <div id="collapseFood" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Eco Friendly Food Packing Box & Plates</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corrugated Box Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingCorrugated">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCorrugated">
+                        Corrugated Box Packaging
+                    </button>
+                </h2>
+                <div id="collapseCorrugated" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>2Ply/3Ply/5Ply/7Ply Corrugated Box</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paper Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPaper">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePaper">
+                        Paper Packaging
+                    </button>
+                </h2>
+                <div id="collapsePaper" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Printed Butter Paper</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plastic Containers Packaging -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPlastic">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlastic">
+                        Plastic Containers Packaging
+                    </button>
+                </h2>
+                <div id="collapsePlastic" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>Round Container for Sweets & Shrikhand</li>
+                            <li>Sweet Box</li>
+                            <li>Container for Food Packing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paper & Non Woven Carry Bags -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingBags">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBags">
+                        Paper & Non Woven Carry Bags
+                    </button>
+                </h2>
+                <div id="collapseBags" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+                            <li>All Types Non Woven Bags</li>
+                            <li>Customized Bag</li>
+                            <li>Fancy Bag</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /accordion -->
+    </div>
+</section>
+
+
+<section id="gallery" class="section bg-light text-center py-5">
+    <div class="container">
+        <h2 class="mb-4">Gallery</h2>
+
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="assets/Cakebox.jpg" class="d-block mx-auto gallery-img" alt="Gallery Image 1">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/Nastabox.jpg" class="d-block mx-auto gallery-img" alt="Gallery Image 2">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/sweetbox.jpg" class="d-block mx-auto gallery-img" alt="Gallery Image 3">
+                </div>
+
+                <!-- Add more carousel-item blocks as needed -->
+
+            </div>
+
+            <!-- Optional Controls (can be hidden if autoplay only) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section bg-white text-center">
+    <div class="container py-5">
+        <h2>Contact Us</h2>
+        <p class="lead">Email: info@.com | Phone: +91-9876543210</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="custom-footer text-white text-center p-2">
+    <small>&copy; 2025 </small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

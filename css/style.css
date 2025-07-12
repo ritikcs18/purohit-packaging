@@ -1,0 +1,170 @@
+/* Brand Color Scheme */
+:root {
+    --primary-color: #0a174e;  /* Dark Blue */
+    --accent-color: #f57c00;   /* Orange */
+    --text-light: #ffffff;
+}
+
+/* Typography & Base */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+h2, h4 {
+    font-weight: 600;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+#about {
+    margin-top: 0; /* remove margin, use padding below */
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 80px; /* increase height */
+}
+
+.navbar .nav-link {
+    color: var(--text-light) !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--accent-color) !important;
+}
+
+.navbar-brand {
+    color: var(--text-light) !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* Footer (same as navbar) */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Accordion Styling */
+.accordion-button {
+    background-color: #f8f9fa;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    color: var(--primary-color);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+.accordion-button:hover {
+    background-color: #e2e6ea;
+}
+
+.accordion-body {
+    background-color: #fff;
+    padding: 1.5rem 1.25rem;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-body ul li {
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    text-align: left;
+    border-bottom: 1px dashed #ddd;
+    transition: all 0.3s;
+}
+
+.accordion-body ul li:hover {
+    color: var(--accent-color);
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Section Titles */
+#products h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+#products h4 {
+    color: var(--primary-color);
+}
+
+.gallery-img {
+    max-height: 300px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-orange {
+    color: #f57c00;
+}
+
+
+/* About Us Background Section */
+.about-section {
+    position: relative;
+    background-image: url('../assets/background.png'); /* <-- fixed path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--text-light);
+    overflow: hidden;
+}
+
+.about-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 23, 78, 0.65); /* semi-transparent dark overlay */
+    z-index: 1;
+}
+
+.about-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+
